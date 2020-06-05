@@ -14,6 +14,7 @@ export default function LikeCounter() {
       <p>
         This post has <b>{numLikes}</b> likes!
         <button onClick={increment}>Like</button>
+        <button onClick={() => set_numLikes(initial_numLikes)}>Reset</button>
       </p>
     </div>
   );
