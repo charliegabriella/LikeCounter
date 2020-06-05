@@ -4,7 +4,7 @@ import LikeCounter from "./components/LikeCounter"
 function App() {
   return (
     <div>
-       <LikeCounter />
+     <LikeCounter />
     </div>
   );
 }
